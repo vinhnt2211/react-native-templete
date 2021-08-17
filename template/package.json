@@ -1,0 +1,62 @@
+{
+  "name": "newbase",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "pod": "cd ios && pod install",
+    "podFull": "cd ios && rm -rf Pods/* && rm -rf Podfile.lock && pod install",
+    "generateIconFontComponent": "./node_modules/.bin/generate-icon ./src/assets/Fonts/IconFont/styles.css --componentName=vorship-app --fontFamily=vorship-app > ./node_modules/react-native-vector-icons/vorship-app.js",
+    "copyIconFontToNodeModules": "cp ./src/assets/Fonts/IconFont/fonts/vorship-app.ttf ./node_modules/react-native-vector-icons/Fonts/vorship-app.ttf",
+    "createFontToNodeModule": "cp ./src/assets/Fonts/*.ttf ./node_modules/react-native-vector-icons/Fonts",
+    "createIconFont": "yarn run generateIconFontComponent && yarn run copyIconFontToNodeModules && yarn run createFontToNodeModule",
+    "createIconFontFull": "yarn run generateIconFontComponent && yarn run copyIconFontToNodeModules && yarn run createFontToNodeModule && yarn pod",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.13.4",
+    "@reduxjs/toolkit": "1.5.0",
+    "axios": "0.21.1",
+    "formik": "2.2.6",
+    "lodash": "4.17.20",
+    "moment": "2.29.1",
+    "react": "16.13.1",
+    "react-hook-form": "6.15.1",
+    "react-native": "0.63.4",
+    "react-native-bootsplash": "3.1.4",
+    "react-native-config": "1.4.2",
+    "react-native-device-info": "8.0.1",
+    "react-native-fast-image": "8.3.4",
+    "react-native-navigation": "7.9.0",
+    "react-native-vector-icons": "8.0.0",
+    "react-native-webview": "11.2.3",
+    "react-redux": "7.2.2",
+    "redux-logger": "3.0.6",
+    "redux-persist": "6.0.0",
+    "yup": "0.32.8"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.16",
+    "@babel/runtime": "7.12.13",
+    "@react-native-community/eslint-config": "2.0.0",
+    "babel-jest": "26.6.3",
+    "eslint": "7.20.0",
+    "eslint-config-prettier": "7.2.0",
+    "eslint-import-resolver-react-native": "0.2.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-react": "7.22.0",
+    "flow-bin": "0.122.0",
+    "jest": "26.6.3",
+    "metro-react-native-babel-preset": "0.65.0",
+    "prettier": "2.2.1",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

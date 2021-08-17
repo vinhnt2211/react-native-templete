@@ -1,0 +1,7 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque">
+    <item android:drawable="@drawable/img_splash"/>
+    <item 
+    android:drawable="@drawable/b_i_01"
+    android:gravity="center">
+    </item>
+</layer-list>

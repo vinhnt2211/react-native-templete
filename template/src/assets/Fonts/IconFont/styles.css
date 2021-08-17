@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "vorship-app";
+  src:url("fonts/vorship-app.eot");
+  src:url("fonts/vorship-app.eot?#iefix") format("embedded-opentype"),
+    url("fonts/vorship-app.woff") format("woff"),
+    url("fonts/vorship-app.ttf") format("truetype"),
+    url("fonts/vorship-app.svg#vorship-app") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "vorship-app" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "vorship-app" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ic-arrow-down:before {
+  content: "\61";
+}
+.icon-ic-arrow-left-long:before {
+  content: "\62";
+}
+.icon-ic-arrow-right:before {
+  content: "\63";
+}
+.icon-ic-calendar:before {
+  content: "\64";
+}
+.icon-ic-camera:before {
+  content: "\65";
+}
+.icon-ic-check:before {
+  content: "\66";
+}
+.icon-ic-church:before {
+  content: "\67";
+}
+.icon-ic-close:before {
+  content: "\68";
+}
+.icon-ic-device:before {
+  content: "\69";
+}
+.icon-ic-edit:before {
+  content: "\6a";
+}
+.icon-ic-eye:before {
+  content: "\6b";
+}
+.icon-ic-eye-close:before {
+  content: "\6c";
+}
+.icon-ic-full-screen:before {
+  content: "\6d";
+}
+.icon-ic-heart:before {
+  content: "\6e";
+}
+.icon-ic-heart-fill:before {
+  content: "\6f";
+}
+.icon-ic-language:before {
+  content: "\71";
+}
+.icon-ic-live:before {
+  content: "\72";
+}
+.icon-ic-location-pin:before {
+  content: "\73";
+}
+.icon-ic-map:before {
+  content: "\74";
+}
+.icon-ic-money:before {
+  content: "\75";
+}
+.icon-ic-notification:before {
+  content: "\76";
+}
+.icon-ic-offline:before {
+  content: "\77";
+}
+.icon-ic-options:before {
+  content: "\78";
+}
+.icon-ic-options-vertical:before {
+  content: "\79";
+}
+.icon-ic-people:before {
+  content: "\7a";
+}
+.icon-ic-phone:before {
+  content: "\41";
+}
+.icon-ic-profile:before {
+  content: "\42";
+}
+.icon-ic-save:before {
+  content: "\43";
+}
+.icon-ic-saved:before {
+  content: "\44";
+}
+.icon-ic-search:before {
+  content: "\45";
+}
+.icon-ic-service:before {
+  content: "\46";
+}
+.icon-ic-stream-filter:before {
+  content: "\47";
+}
+.icon-ic-stream-now:before {
+  content: "\48";
+}
+.icon-ic-ticket:before {
+  content: "\49";
+}
+.icon-ic-time:before {
+  content: "\4a";
+}
+.icon-ic-time-2:before {
+  content: "\4b";
+}
+.icon-ic-turn-camera:before {
+  content: "\4c";
+}
+.icon-ic-chat:before {
+  content: "\4d";
+}
+.icon-ic-message-circle:before {
+  content: "\4e";
+}
+.icon-ic-share:before {
+  content: "\4f";
+}
+.icon-ic-flash:before {
+  content: "\50";
+}
+.icon-ic-arrow-left-long-1:before {
+  content: "\51";
+}
+.icon-ic-play:before {
+  content: "\52";
+}
+.icon-ic-temple:before {
+  content: "\53";
+}
+.icon-ic-location:before {
+  content: "\54";
+}
+.icon-ic-home:before {
+  content: "\55";
+}

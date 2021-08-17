@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "extends": ["@react-native-community"],
+  "plugins": ["prettier", "react", "react-native", "eslint-plugin-import"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "object-curly-spacing": ["warn", "always"],
+    "react-native/no-unused-styles": 2,
+    "no-unused-vars": 2,
+    "react-native/no-color-literals": 2,
+    "import/no-unresolved": 1
+  },
+  "settings": {
+    "import/resolver": "react-native"
+  },
+  "overrides": [
+    {
+      "files": ["App/**/*.js"],
+      "rules": {}
+    }
+  ]
+}
